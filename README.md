@@ -12,7 +12,8 @@ Tutor url : [Maximilian Schwarzmüller - Docker & Kubernetes: The Practical Guid
 
 Docker is a container technologyI A tool for createing and managing containers.
 
-    - Container -> - A standardized unit of software
+####Container 
+-> - A standardized unit of software
                    - A package of code and dependencies to run that code (e.g. NodeJS code + the NodeJS runtime).
                    - The same container always yields **exact same application and execution behavior!** . No matter where or by whom it might be executed.
                    - Support for Containers **is built into** modern operating systems.
