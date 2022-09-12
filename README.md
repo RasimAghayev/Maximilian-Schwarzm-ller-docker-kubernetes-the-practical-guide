@@ -8,9 +8,14 @@ author: "Rasim Aghayev"
 Tutor url : [Maximilian Schwarzmüller - Docker & Kubernetes: The Practical Guide [2022 Edition]](https://www.udemy.com/course/docker-kubernetes-the-practical-guide/)
 
 
-# 2. What Is Docker?
+## 2. What Is Docker?
 
 Docker is a container technologyI A tool for createing and managing containers.
 
-    - Container -> A standardized unit of software
-                   A package of code and dependencies to run that code (e.g. NodeJS code + the NodeJS runtime)
+    - Container -> - A standardized unit of software
+                   - A package of code and dependencies to run that code (e.g. NodeJS code + the NodeJS runtime).
+                   - The same container always yields **exact same application and execution behavior!** . No matter where or by whom it might be executed.
+                   - Support for Containers **is built into** modern operating systems.
+                   - **Docker simplifies** the creation and management of such containers.
+
+## 3. Why Docker & Containers?
