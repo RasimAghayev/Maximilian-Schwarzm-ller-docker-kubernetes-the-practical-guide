@@ -8,6 +8,8 @@ author: "Rasim Aghayev"
 Tutor url : [Maximilian Schwarzmüller - Docker & Kubernetes: The Practical Guide [2022 Edition]](https://www.udemy.com/course/docker-kubernetes-the-practical-guide/)
 
 
+# 2. What Is Docker?
+
 Docker is a container technologyI A tool for createing and managing containers.
 
     - Container -> A standardized unit of software
