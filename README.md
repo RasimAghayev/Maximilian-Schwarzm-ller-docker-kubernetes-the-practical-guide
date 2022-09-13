@@ -87,3 +87,15 @@ Docker is a container technologyI A tool for createing and managing containers.
    - Kubernetes: Data & Volumes
    - Kubernetes: Networking
    - Deploying a Kubernetes Cluster
+
+
+## 18. Images & Containers: What and Why?
+   - Docker
+      - Images
+         - Templates / Blueprints for containers
+         - Contains code + required tools/runtimes
+      - Containers
+         - The running "unit of software"
+         - Multiple containers can be created based on one image
+
+
