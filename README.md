@@ -150,13 +150,10 @@ Docker is a container technologyI A tool for createing and managing containers.
 
 </p>
 </details>
-
-
-
-
-
 </p>
 </details>
+
+--------------------------------------------------------------
 <details>
    <summary>2: Docker Images & Containers: The Core Building Blocks</summary>
 <p>
@@ -182,19 +179,47 @@ Docker is a container technologyI A tool for createing and managing containers.
    </summary>
 <p>
 
-> We need an Image!
+> We need an Image!	
 >   - Use an **existing, pre-built Image**
->      - e.g via Docker Hub
->         - Templates / Blueprints for containers
->         - Contains code + required tools/runtimes
->      - Containers
->         - The running "unit of software"
->         - Multiple containers can be created based on one image
+>>      - e.g via Docker Hub
+>>> ```Shell
+>>> docker run node
+>>> docker run -it node
+>>> docker ps -a
+>>> ```
 
+>   - Create your **own, custom Image**
+>>      - Write your own Dockerfile (based on another Image)
+>>> ```Shell
+>>> docker run node
+>>> docker run -it node
+>>> docker ps -a
+>>> ```
 </p>
 </details>
 
 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	Template
 <details>
    <summary> 
 		- 18. Images & Containers: What and Why?
