@@ -191,9 +191,7 @@ Docker is a container technologyI A tool for createing and managing containers.
 >   - Create your **own, custom Image**
 >>      - Write your own Dockerfile (based on another Image)
 >>> ```Shell
->>> docker run node
->>> docker run -it node
->>> docker ps -a
+>>> docker run -p 3000:80 33483ba #container name 3000 external port in use (localhost:3000) , 80 internal container port
 >>> ```
 </p>
 </details>
