@@ -196,6 +196,30 @@ Docker is a container technologyI A tool for createing and managing containers.
 </p>
 </details>
 
+<details>
+   <summary> 
+		- 25. Understanding Image Layers
+   </summary>
+<p>
+
+> We need an Image!	
+>   - Use an **existing, pre-built Image**
+>>      - e.g via Docker Hub
+>>> ```Shell
+>>> docker run node
+>>> docker run -it node
+>>> docker ps -a
+>>> ```
+
+>   - Create your **own, custom Image**
+>>      - Write your own Dockerfile (based on another Image)
+>>> ```Shell
+>>> docker run -p 3000:80 33483ba #container name 3000 external port in use (localhost:3000) , 80 internal container port
+>>> ```
+</p>
+</details>
+	
+	
 
 	
 	
